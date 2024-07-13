@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shivam Official</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Shivam Official</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header with Background Image -->
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Welcome to Shivam Official</h1>
+        <p class="lead">
+          Your ultimate destination for tracking your journey and achieving your
+          goals.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
+      </div>
+    </header>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <i class="fas fa-gamepad work-icon"></i>
+            <h2 class="work-heading">Unity Game Engine</h2>
+            <p class="work-description">
+              Creating immersive games with Unity's powerful engine.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-code work-icon"></i>
+            <h2 class="work-heading">C#</h2>
+            <p class="work-description">
+              Writing clean and efficient code using C# for game development.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fas fa-laptop-code work-icon"></i>
+            <h2 class="work-heading">VSCode</h2>
+            <p class="work-description">
+              Developing and debugging games with Visual Studio Code.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About Shivam Official</h2>
+            <p>
+              Hello! I'm Shivam, an 9th-grade student from Bangalore aspiring to
+              become a game developer. I'm passionate about creating immersive
+              gaming experiences and constantly learning new technologies and
+              programming languages. Join me on my journey as I turn my passion
+              for games into a career, crafting exciting and engaging digital
+              adventures.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="shivam.jpg"
+              alt="About Image"
+              class="img-fluid about-image"
+              width="600"
+              height="400"
+              style="
+                height: 400px;
+                width: 600px;
+                object-fit: cover;
+                border-radius: 4px;
+              "
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>Get in touch via the form or details below.</p>
+        <div class="row">
+          <div class="col-lg-6">
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="UserNameP"
+                  required
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="UserEmail"
+                  required
+                  placeholder="Enter email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="UserPassword"
+                  rows="3"
+                  required
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <p>Address: Sector-6-HSR-Layout-in-Bangalore-</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Email: info@example.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container text-center">
+        <p>&copy; 2024 Shivam Official. All rights reserved.</p>
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/your_instagram_handle"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/your_facebook_page" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://www.youtube.com/your_youtube_channel" target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
