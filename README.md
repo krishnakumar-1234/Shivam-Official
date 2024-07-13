@@ -37,4 +37,4 @@ The Shivam Official website serves as a personal portfolio for Shivam, showcasin
 
 1. Clone the repository:
    ```bash
-   git clone https://krishnakumar-1234.github.io/Shivam-Official/index.html
+   git clone https://github.com/krishnakumar-1234/Shivam-Official.git
